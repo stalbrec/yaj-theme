@@ -1,4 +1,4 @@
-# _Y_et _a_nother _J_ekyll theme
+# Yet another Jekyll theme
 
 ## License
 
