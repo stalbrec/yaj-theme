@@ -8,6 +8,9 @@
   <body>
     <div class="sidenav">
       <h2 style="text-align: center">{{ site.title }}</h2>
+      <p>
+        {{ site.description }}
+      </p>
       <ul>
         {% for item in site.html_pages %}
         <li><a href="{{ item.url }}">{{ item.title }}</a></li>
