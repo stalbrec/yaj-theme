@@ -1,1 +1,21 @@
-{{ content }}
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>
+      {{ page.title }}
+    </title>
+  </head>
+  <body>
+    <div class="sidenav">
+      <h2 style="text-align: center">{{ site.title }}</h2>
+      <ul>
+        {% for item in site.html_pages %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
+  </body>
+</html>

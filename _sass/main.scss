@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@414&display=swap');
+
+.content {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 280px; /* Same as the width of the sidebar */
+    padding: 40px 10px;
+}
+
+.sidenav {
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #818181;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 14px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f1f1f1;
+    display: block;
+}
+
+.sidenav ul {
+    list-style: none;
+}
+
+.sidenav a:hover {
+    color: #111;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
